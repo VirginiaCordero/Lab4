@@ -11,7 +11,7 @@ public class Lab4 {
 			System.out.println("Please enter an integer:");
 			int userInt = scnr.nextInt();
 			for (int i = 1; i <= userInt; i++) {
-				System.out.printf("%-10s %-10s %-10s\n", i, Math.pow(i, 2), Math.pow(i, 3));
+				System.out.printf("%-10s %-10s %-10s\n", i, (int) Math.pow(i, 2), (int)Math.pow(i, 3));
 			}
 				System.out.println("Would you like to continue? (y/n)");
 				userInput = scnr.next();		
